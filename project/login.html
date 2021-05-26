@@ -1,0 +1,345 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+    <!-- Bootstrap CSS -->
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <title>Project Xiangtea</title>
+  </head>
+  <body>
+      <style>
+      .navbar {
+      text-align: center;
+      background-color: #789123;
+    }
+    .nav {
+      text-align: justify;
+    }
+    .h1 {
+      font-size: 20px;
+    }
+    img {
+      align-items: center;
+    }
+    .centerleaftext {
+      text-align: justify;
+    }
+    .mainlogo {
+      align-items: center;
+    }
+    nav li{
+      list-style:none;
+      }
+      .dropdown-submenu {
+      color: #496949;
+      position: relative;
+      background-color: #ffffff;
+    }
+    .dropdown-submenu>.dropdown-menu {
+      color: #496949;
+      top: 0;
+      left: 100%;
+      margin-top: -6px;
+      margin-left: -1px;
+      background-color: #ffffff;
+      -webkit-border-radius: 0 6px 6px 6px;
+      -moz-border-radius: 0 6px 6px;
+      border-radius: 6px;
+    }
+    .dropdown-submenu:hover>.dropdown-menu {
+      color: #496949;
+      display: block;
+      background-color: #ffffff;
+      font-weight: 600;
+    }
+    .dropdown-submenu>a:after {
+      color: #496949;
+      display: block;
+      content: " ";
+      float: right;
+      width: 0;
+      height: 0;
+      border-color: transparent;
+      border-style: solid;
+      border-width: 5px 0 5px 5px;
+      margin-top: 5px;
+      margin-right: -10px;
+    }
+    .dropdown-submenu:hover>a:after {
+      color: #496949;
+      background-color: #ffffff;
+    }
+    .dropdown-submenu.pull-left {
+      color: #496949;
+      float: none;
+      background-color: #ffffff;
+    }
+    .dropdown-submenu.pull-left>.dropdown-menu {
+      color: #496949;
+      left: -100%;
+      margin-left: 10px;
+      -webkit-border-radius: 6px 0 6px 6px;
+      -moz-border-radius: 6px 0 6px 6px;
+      border-radius: 6px 6px 6px 6px;
+      background-color: #ffffff;
+    }
+    .homebutton {
+      background-color:  #789123;
+      color: #ffffff;
+    }
+    .createaccount {
+      margin-top: 10px;
+      background-color:  #789123;
+      color: #ffffff;
+    }
+    .guestbutton {
+      background-color:  #789123;
+      margin-top: 10px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .signbutton {
+      background-color:  #789123;
+      margin-top: 10px;
+      color: #ffffff;
+      margin-bottom: 20px;
+    }
+    .footertext {
+      color:  #ffffff;
+    }
+  </style>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+    -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+<a class="nav-link" href="tea.html"><img src="logo4.jpg" width="100" alt="Xiang Tea Logo" class="logoborder centerlogo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  About Us
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="aboutus.html">Our Story</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Our Farm</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="whyorganic.html">Why Organic?</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                      <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                          Our Teas
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <li class="dropdown-submenu btn-navbar">
+                                          <a class="dropdown-item btn-navbar" tabindex="-1" href="#">Loose-Leaf Teas</a>
+                                            <ul class="dropdown-menu btn-navbar">
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="white.html">White Tea</a></li>
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="black.html">Black Tea</a></li>
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="chai.html">Chai Tea</a></li>
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="green.html">Green Tea</a></li>
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="oolong.html">Oolong Tea</a></li>
+                                              <li class="dropdown-item btn-navbar"><a tabindex="-1" href="herbal.html">Herbal Tea</a></li>
+                                            </ul>
+                                        </li>
+                          <li class="dropdown-submenu btn-navbar">
+                                    <a class="dropdown-item btn-navbar" href="#">Herbal Wellness Teas</a>
+                                      <ul class="dropdown-menu btn-navbar">
+                                        <li class="dropdown-item btn-navbar"><a href="#">Cold & Defense</a></li>
+                                        <li class="dropdown-item btn-navbar"><a href="#">Detox & Digestion</a></li>
+                                        <li class="dropdown-item btn-navbar"><a href="#">Sleep & Relaxation</a></li>
+                                        <li class="dropdown-item btn-navbar"><a href="#">Alertness & Focus</a></li>
+                                        <li class="dropdown-item btn-navbar"><a href="#">Hydration & Glow</a></li>
+                                      </ul>
+                                    </li>
+                        </ul>
+                      </li>
+            </li>
+            <li class="nav-item">
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Teaware & Gifts
+                      </a>
+                      <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="#">Tea Mugs & Tumblers</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Teapots & Kettles</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Infusers</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Filter Bags & Strainers</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Gift Sets</a></li>
+                        <li><hr class="dropdown-divider"></li>
+                        <li><a class="dropdown-item" href="#">Gift Cards</a></li>
+                      </ul>
+                    </li>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">"Frequent Steeper" Club</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="steeperclub.html">Specials</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Account/Login
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Login/Sign Up</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Orders & Order History</a></li>
+              </ul>
+            </li>
+          </ul>
+  </div>
+</nav>
+<div class="container">
+  <div class="row justify-content-center">
+    <div class="col-4">
+      <h3>Existing User Login</h3>
+      <div class="boxed">
+      <form class="formcontentcol3" action="index.html" method="post">
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" value="" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$"><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+        <a class="text" href="">Forgot your Password?</a><br>
+        <input type="checkbox" id="rememberme" name="remember_me" value="">
+        <label for="rememberme">Remember Me</label><br>
+        <button type="button" class="signbutton"><a class="signbutton" href="tea.html">Sign In</a></button>
+        <br>
+      </br>
+        Or<br>
+      </br>
+
+        <a class="nav-link" href="https://www.facebook.com/login/web/"><img src="fblogin.png" alt="FBAcc Link" width="250px" height="50px"></a>
+        <a class="nav-link" href="https://accounts.google.com/signin/v2/identifier?flowName=GlifWebSignIn&flowEntry=ServiceLogin"><img src="google.png" alt="GoogleAcc Link" width="250px" height="50px"></a>
+      </form>
+      </div>
+    </div>
+
+    <div class="col-4">
+      <h3>New Users</h3>
+      <div class="boxed">
+      <form class="formcontentcol3" action="index.html" method="post">
+        <label for="email">Email:</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+        <label for="password">Password:</label><br>
+        <input type="password" id="psw" name="psw" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must contain at least one number and one uppercase and lowercase letter, and at least 8 or more characters" required><br>
+        <label for="password">Re-Enter Password:</label><br>
+        <input type="password" name="password" value="" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"><br>
+        <input type="checkbox" id="rememberme" name="remember_me" value="">
+        <label for="rememberme">Remember Me</label><br>
+        <!-- Button trigger modal -->
+<button type="button" class="createaccount" data-bs-toggle="modal" data-bs-target="#staticBackdrop">
+  Create an Account
+</button>
+
+<!-- Modal -->
+<div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="staticBackdropLabel">Account Created Successfully!</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        Thank you for becoming a member with Xiangtea!
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="homebutton"><a class="nav-link" href="tea.html">Return to Homepage</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+        <hr class="form">
+        <label class="centerform" for="sign_in_fb">Guest Checkout:</label><br>
+        <button type="button" class="guestbutton"><a class="guestbutton" href="checkout.html">Checkout as Guest</a></button>
+
+      </form>
+      </div>
+    </div>
+
+<!--https://bootsnipp.com/snippets/GaeQR-->
+<div class="container h-100">
+<div class="d-flex justify-content-center h-100">
+  </div>
+</div>
+</div>
+
+<div class="container" overflow:="" hidden;="" position:="" fixed;="" bottom:="" 0;="">
+<nav class="navbar navbar-expand-lg">
+  <div class="container-fluid">
+    <ul class:="" "footerleft"="">
+      <li class="nav-item">
+        <a class="footertext" style="margin-top: 10px;" aria-current="page" href="shipping.html">Shipping and Returns</a>
+      </li>
+      <li class="nav-item">
+        <a class="footertext" aria-current="page" href="#">Packaging</a>
+      </li>
+      <li class="nav-item">
+        <a class="footertext" aria-current="page" href="#">FAQ's</a>
+      </li>
+      <li class="nav-item">
+        <a class="footertext" aria-current="page" href="#">Contact Us</a>
+      </li>
+    </ul>
+
+        <li class="nav-item">
+          <section>
+            <img src="textleaf.png" alt="Leaf" class="centerleaf" width="150">
+          </section>
+        </li>
+
+    <ul>
+      <li class="nav-item footerright">
+        <a class="nav-link" href="https://www.facebook.com/"><img src="facebook.png" alt="Facebook Link" width="35" height="35"></a>
+      </li>
+      <li class="nav-item footerright">
+        <a class="nav-link" href="https://www.instagram.com/"><img src="instagram.jpg" alt="Instagram Link" width="35" height="35"></a>
+      </li>
+      <li class="nav-item footerright">
+        <a class="nav-link" href="https://twitter.com/?lang=en"><img src="twitter.png" alt="Twitter Link" width="35" height="35"></a>
+      </li>
+    </ul>
+  </div>
+</nav>
+</div>
+
+
+<footer>
+<hr>
+© Copyright All Rights Reserved 2021
+</footer>
+
+
+</div></div></body></html>
